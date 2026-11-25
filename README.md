@@ -1,5 +1,11 @@
 # 挖掘机 WordPress 完整本地演示站
 
+**本仓库由 [hhshenzagent](https://github.com/hhshenzagent) 整理维护。** 基于 jackzhang1314 的公开演示站 Fork，保留完整源码、预填内容、图片、提交历史及第三方许可。
+
+2026-11-25：本分支更新下载与启动提示词中的仓库地址，功能和运行数据规则沿用原项目。
+
+[全部建站方案与体验提示词](https://github.com/hhshenzagent/axiscnc-wordpress-template#ai-builder-hub)
+
 下载后就是已填好内容的工程机械 B2B 网站：可以浏览前台、登录 WordPress CMS、编辑产品和页面，也可以让 Codex 在你的电脑里继续开发。
 
 本项目使用 **WordPress Playground + PHP WebAssembly + SQLite**。无需准备服务器、域名、PHP、MySQL、Docker 或 WordPress 主机账号。首次启动需要联网下载运行依赖；启动脚本会在缺少合适的 Node.js 时，自动下载到项目自己的 `.tools/` 目录。
@@ -9,7 +15,7 @@
 安装好 Codex 后，直接发送：
 
 ```text
-请将 https://github.com/jackzhang1314/excavator-wordpress-demo 克隆到一个新文件夹，
+请将 https://github.com/hhshenzagent/excavator-wordpress-demo 克隆到一个新文件夹，
 先阅读仓库的 AGENTS.md 和 README.md，然后在我的电脑上启动完整的 WordPress 演示站。
 macOS/Linux 使用 bash start.sh，Windows 使用 start.ps1。
 请保持网站运行，打开前台，并用 README 中的演示账号登录 WordPress 后台。
@@ -19,7 +25,7 @@ macOS/Linux 使用 bash start.sh，Windows 使用 start.ps1。
 
 这里“安装 Codex 即可开始”指由 Codex 帮你下载项目并运行入口，所需运行环境由入口准备。电脑仍需联网，并允许下载和启动本地程序。不会替你购买主机或连接线上账号。
 
-电脑没有 Git 时，也可以让 Codex 下载本仓库的 [ZIP 完整包](https://github.com/jackzhang1314/excavator-wordpress-demo/archive/HEAD.zip)，解压后启动，不需要 GitHub 账号。
+电脑没有 Git 时，也可以让 Codex 下载本仓库的 [ZIP 完整包](https://github.com/hhshenzagent/excavator-wordpress-demo/archive/HEAD.zip)，解压后启动，不需要 GitHub 账号。
 
 ![已填好内容的本地演示站首页](docs/screenshots/homepage.png)
 
