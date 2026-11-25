@@ -1,12 +1,14 @@
 # 给 Codex 的项目说明
 
+维护记录：2026-11-25，hhshenzagent 将 ZIP 下载入口调整为本账号 Fork，其他运行与数据保留规则沿用上游。
+
 ## 用户拿到链接后的默认任务
 
 这是完整、已填好内容的本地 WordPress 演示，不是空白主题。用户要求体验时，请完成下载、启动和打开页面，不要停在解释命令。
 
 1. 阅读 README.md。检查当前系统及这个目录的已有改动；已有 `.runtime/` 时保留它。
    若 `.runtime/running.json` 指向一个健康的运行中站点，直接复用；不要再开第二个进程。确需重启时，只停止这个副本已确认的进程。
-   如果电脑没有 Git，下载 `https://github.com/jackzhang1314/excavator-wordpress-demo/archive/HEAD.zip` 并解压到新文件夹，再进入包含 package.json 的目录；无需先配置 GitHub 账号或安装 Git。
+   如果电脑没有 Git，下载 `https://github.com/hhshenzagent/excavator-wordpress-demo/archive/HEAD.zip` 并解压到新文件夹，再进入包含 package.json 的目录；无需先配置 GitHub 账号或安装 Git。
 2. macOS/Linux 运行 `bash start.sh`；Windows 运行 `powershell -NoProfile -ExecutionPolicy Bypass -File .\start.ps1`。入口会在需要时下载项目内 Node.js，并安装固定依赖。无需让用户先安装 PHP、MySQL、Docker 或另建 WordPress。
 3. 保持进程运行，等终端输出 Website 和 CMS 地址。默认端口 9400；占用时使用 `--port 9401`，不要终止其他项目进程。
 4. 打开前台和 `/wp-admin/`，告诉用户公开演示账号 `demo_admin` / `ExcavatorDemo2026!`。可以使用当前可用的浏览器工具，无固定浏览器依赖。
